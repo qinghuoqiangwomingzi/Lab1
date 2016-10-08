@@ -266,7 +266,8 @@ public class HW1 {
 	
 	
 	public static void main(String[] args){
-			//scan the formula	
+			//scan the formula
+        println("In branch B1");
 		boolean flag = false;
 		Scanner in = new Scanner(System.in);
 		String s =" ";
@@ -275,7 +276,7 @@ public class HW1 {
 			s = in.nextLine();
 			flag = Check(s);	
 		}while(!flag);
-		System.out.println("I changed this for branch B1");
+
 		//calculate the formula
 		//check out if there's charater
 		boolean flag1 = true;		//flag1=true if there's only digit in s
