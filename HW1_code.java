@@ -275,7 +275,7 @@ public class HW1 {
 			s = in.nextLine();
 			flag = Check(s);	
 		}while(!flag);
-		System.out.println("Polynomial is in correct form!");
+		System.out.println("I changed this for branch B1");
 		//calculate the formula
 		//check out if there's charater
 		boolean flag1 = true;		//flag1=true if there's only digit in s
