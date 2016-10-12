@@ -1,4 +1,4 @@
-import java.util.*;
+﻿import java.util.*;
 import java.util.regex.Pattern;
 public class HW1 {
 	public static int q;
@@ -106,12 +106,7 @@ public class HW1 {
 		}	
 		
 	}
-	while(!stack2.isEmpty()){		//push all the rest operators into stack1
-		stack1.push(stack2.pop());
-	}
-	//for test
-	System.out.println(stack1);
-	return stack1;
+	
 }
 
 	public static Integer Simplify(Stack<String> postOrder){
