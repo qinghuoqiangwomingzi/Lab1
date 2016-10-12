@@ -20,7 +20,7 @@ public class HW1 {
 		}
 		else{
 			System.out.println("Wrong Format!");
-			flag = false;
+			flag23 = false;
 		}
 		//check out the rest formula
 		for(int i = 0; i < lastNum + 1; i++){
